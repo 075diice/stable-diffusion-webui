@@ -45,4 +45,8 @@
 # Uncomment to disable TCMalloc
 #export NO_TCMALLOC="True"
 
-###########################################
+# Set the commandline arguments to skip the torch CUDA test
+#export COMMANDLINE_ARGS="--skip-torch-cuda-test"
+
+# Launch the application
+python launch.py
